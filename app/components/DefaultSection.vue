@@ -8,7 +8,10 @@ defineProps({
 </script>
 
 <template>
-    <div class="relative max-w-6xl mx-auto px-12 py-12 bg-white/20 rounded-3xl shadow-xl">
+    <div
+        class="relative max-w-6xl mx-auto px-12 py-12 rounded-3xl "
+        :class="reverse ? '' : 'bg-white/20 shadow-xl'"
+    >
         <div
             class="flex flex-col items-center gap-10"
             :class="reverse ? 'md:flex-row-reverse' : 'md:flex-row'"

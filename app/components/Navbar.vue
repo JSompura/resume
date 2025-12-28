@@ -1,5 +1,5 @@
 <script setup>
-const sections = ['home', 'about', 'service', 'reviews', 'contact'];
+const sections = ['home', 'about', 'skills', 'experience', 'projects', 'contact me'];
 const { activeSection } = useScrollSpy(sections);
 </script>
 <template>

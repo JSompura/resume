@@ -10,5 +10,6 @@
         <main class="relative">
             <slot />
         </main>
+        <Footer />
     </div>
 </template>
